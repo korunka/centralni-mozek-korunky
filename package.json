@@ -1,0 +1,20 @@
+{
+  "name": "hello-world-server",
+  "version": "1.0.0",
+  "description": "Server servující stránku hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "korunka",
+    "loterie",
+    "cmk"
+  ],
+  "author": "Ondra Hlavac <ondrej.hlavac@korunka.eu>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
