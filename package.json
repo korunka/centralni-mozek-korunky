@@ -1,11 +1,11 @@
 {
-  "name": "hello-world-server",
+  "name": "centralni-mozek-korunky",
   "version": "1.0.0",
   "description": "Server servující stránku hello world",
-  "main": "index.js",
+  "main": "centralni-mozek-korunky.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "mocha test",
+    "start": "pm2 start centralni-mozek-korunky.js"
   },
   "keywords": [
     "korunka",
